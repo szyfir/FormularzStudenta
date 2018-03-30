@@ -1,0 +1,15 @@
+﻿<Window x:Class="FormularzStudenta.Informacja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormularzStudenta"
+        mc:Ignorable="d"
+        Title="Informacja" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Wersja 1.0" HorizontalAlignment="Left" Margin="122,76,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Data utworzenia 28.03.2018" HorizontalAlignment="Center" Margin="71,126,65,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Zamknij" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,191,0,0" Click="button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FormularzStudentaModelStoreContainer" CdmEntityContainer="FormularzStudentaEntities">
+    <EntitySetMapping Name="praktykanci">
+      <EntityTypeMapping TypeName="FormularzStudentaModel.praktykanci">
+        <MappingFragment StoreEntitySet="praktykanci">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="imie" ColumnName="imie" />
+          <ScalarProperty Name="nazwisko" ColumnName="nazwisko" />
+          <ScalarProperty Name="uczelnia" ColumnName="uczelnia" />
+          <ScalarProperty Name="jezyki" ColumnName="jezyki" />
+          <ScalarProperty Name="dataPraktyk" ColumnName="dataPraktyk" />
+          <ScalarProperty Name="rokStudiow" ColumnName="rokStudiow" />
+          <ScalarProperty Name="elektrotechnika" ColumnName="elektrotechnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

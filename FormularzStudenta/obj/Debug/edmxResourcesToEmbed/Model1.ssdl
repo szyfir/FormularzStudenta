@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FormularzStudentaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FormularzStudenta.dbo.praktykanci' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="praktykanci">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imie" Type="varchar" MaxLength="50" />
+    <Property Name="nazwisko" Type="varchar" MaxLength="50" />
+    <Property Name="uczelnia" Type="varchar" MaxLength="50" />
+    <Property Name="jezyki" Type="varchar" MaxLength="8000" />
+    <Property Name="dataPraktyk" Type="date" />
+    <Property Name="rokStudiow" Type="varchar" MaxLength="50" />
+    <Property Name="elektrotechnika" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="FormularzStudentaModelStoreContainer">
+    <EntitySet Name="praktykanci" EntityType="Self.praktykanci" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [praktykanci].[id] AS [id], 
+    [praktykanci].[imie] AS [imie], 
+    [praktykanci].[nazwisko] AS [nazwisko], 
+    [praktykanci].[uczelnia] AS [uczelnia], 
+    [praktykanci].[jezyki] AS [jezyki], 
+    [praktykanci].[dataPraktyk] AS [dataPraktyk], 
+    [praktykanci].[rokStudiow] AS [rokStudiow], 
+    [praktykanci].[elektrotechnika] AS [elektrotechnika]
+    FROM [dbo].[praktykanci] AS [praktykanci]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

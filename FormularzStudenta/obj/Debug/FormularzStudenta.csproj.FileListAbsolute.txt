@@ -1,0 +1,42 @@
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.exe.config
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.exe
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.pdb
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.csprojResolveAssemblyReference.cache
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\MainWindow.g.cs
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\App.g.cs
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_MarkupCompile.cache
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_MarkupCompile.lref
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\MainWindow.baml
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.g.resources
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.Properties.Resources.resources
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.csproj.GenerateResource.Cache
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.exe
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.pdb
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\Informacja.g.cs
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\Informacja.baml
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.dll
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.xml
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\Filus\Documents\Visual Studio 2015\Projects\PG\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_Content.g.cs
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.exe.config
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.exe
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.pdb
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.exe
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\FormularzStudenta.pdb
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.dll
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.SqlServer.dll
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.xml
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\bin\Debug\EntityFramework.SqlServer.xml
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.csprojResolveAssemblyReference.cache
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\Informacja.g.cs
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\MainWindow.g.cs
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\App.g.cs
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_Content.g.cs
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_MarkupCompile.cache
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta_MarkupCompile.lref
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\Informacja.baml
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\MainWindow.baml
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.g.resources
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.Properties.Resources.resources
+D:\GIT_REPO\FormularzStudenta\FormularzStudenta\obj\Debug\FormularzStudenta.csproj.GenerateResource.Cache

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FormularzStudentaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="praktykanci">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="imie" Type="varchar" MaxLength="50" />
+          <Property Name="nazwisko" Type="varchar" MaxLength="50" />
+          <Property Name="uczelnia" Type="varchar" MaxLength="50" />
+          <Property Name="jezyki" Type="varchar" MaxLength="8000" />
+          <Property Name="dataPraktyk" Type="date" />
+          <Property Name="rokStudiow" Type="varchar" MaxLength="50" />
+          <Property Name="elektrotechnika" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="FormularzStudentaModelStoreContainer">
+          <EntitySet Name="praktykanci" EntityType="Self.praktykanci" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FormularzStudentaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="praktykanci">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="imie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nazwisko" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="uczelnia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="jezyki" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="dataPraktyk" Type="DateTime" Precision="0" />
+          <Property Name="rokStudiow" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="elektrotechnika" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="FormularzStudentaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="praktykanci" EntityType="Self.praktykanci" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FormularzStudentaModelStoreContainer" CdmEntityContainer="FormularzStudentaEntities">
+          <EntitySetMapping Name="praktykanci">
+            <EntityTypeMapping TypeName="FormularzStudentaModel.praktykanci">
+              <MappingFragment StoreEntitySet="praktykanci">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="imie" ColumnName="imie" />
+                <ScalarProperty Name="nazwisko" ColumnName="nazwisko" />
+                <ScalarProperty Name="uczelnia" ColumnName="uczelnia" />
+                <ScalarProperty Name="jezyki" ColumnName="jezyki" />
+                <ScalarProperty Name="dataPraktyk" ColumnName="dataPraktyk" />
+                <ScalarProperty Name="rokStudiow" ColumnName="rokStudiow" />
+                <ScalarProperty Name="elektrotechnika" ColumnName="elektrotechnika" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
