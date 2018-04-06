@@ -16,7 +16,7 @@
             <Setter Property="FontFamily" Value="Verdena"></Setter>
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid x:Name="mainContainer">
         <Label Content="Imię:" Height="28" HorizontalAlignment="Left" Margin="28,21,0,0" Name="Label1" VerticalAlignment="Top" Width="40" Style="{StaticResource fspFontStyle}"></Label>
         <TextBox Height="23" HorizontalAlignment="Left" Margin="74,21,0,0" Name="imie" VerticalAlignment="Top" Width="130"/>
 
@@ -32,8 +32,8 @@
         <DatePicker Height="25" HorizontalAlignment="Left" Margin="179,118,0,0" Name="dataPraktyki" Width="275" VerticalAlignment="Top"></DatePicker>
 
         <GroupBox  Header="Rok studiów" Height="160" HorizontalAlignment="Left" Margin="34,170,0,0" Name="groupBox1" VerticalAlignment="Top"  Width="136">
-            <StackPanel Margin="0" Name="stackPanel1">
-                <RadioButton Content="Rok 1" Height="16" Name="rok1" Margin="0,10,0,0"></RadioButton>
+            <StackPanel x:Name="Rok_studiow" Margin="0">
+                <RadioButton Content="Rok 1" Height="16" Name="rok1" Margin="0,10,0,0"/>
                 <RadioButton Content="Rok 2" Height="16" Name="rok2" Margin="0,10,0,0"></RadioButton>
                 <RadioButton Content="Rok 3" Height="16" Name="rok3" Margin="0,10,0,0"></RadioButton>
                 <RadioButton Content="Rok 4" Height="16" Name="rok4" Margin="0,10,0,0"></RadioButton>

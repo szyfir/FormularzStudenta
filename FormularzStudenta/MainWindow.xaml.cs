@@ -56,7 +56,7 @@ namespace FormularzStudenta
             }
             this.czyEelektrotech.IsChecked = false;
             this.rok1.IsChecked = true;
-            this.dataPraktyki.Text = DateTime.Today.ToString(); 
+            this.dataPraktyki.Text = DateTime.Today.ToString();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -71,7 +71,17 @@ namespace FormularzStudenta
 
         private void Dodaj_click(object sender, RoutedEventArgs e)
         {
-  
+
+
+            var Rok_Studiow_Radio_Buttons = this.Rok_studiow.Children.OfType<RadioButton>().FirstOrDefault(n => n.IsChecked.Value);
+            StringBuilder Jezyki = new StringBuilder();
+            foreach (CheckBox cb in this.listaJezykow.Items)
+            {
+                if (cb.IsChecked == true)
+                {
+                    Jezyki.AppendLine(cb.Content.ToString()+" ");
+                }
+            }
 
             var context = new FormularzStudentaEntities();
             var odczyt = new praktykanci()
@@ -79,9 +89,11 @@ namespace FormularzStudenta
                 imie = imie.Text,
                 nazwisko = nazwisko.Text,
                 uczelnia = listaUczelni.Text,
-                //elektrotechnika = czyEelektrotech.IsChecked.ToString(),
+                elektrotechnika = czyEelektrotech.IsChecked,
                 dataPraktyk = Convert.ToDateTime(dataPraktyki.Text),
-                //rokStudiow = RadioButton.ContentProperty.ToString()
+                rokStudiow = Rok_Studiow_Radio_Buttons.Content.ToString(),
+                jezyki = Jezyki.ToString()
+
             };
             context.praktykanci.Add(odczyt);
             context.SaveChanges();
@@ -103,6 +115,7 @@ namespace FormularzStudenta
 
         private void Wyczysc_click(object sender, RoutedEventArgs e)
         {
+
             this.reset();
         }
 
@@ -124,7 +137,7 @@ namespace FormularzStudenta
 
         private void zapiszDane_Click(object sender, RoutedEventArgs e)
         {
-           
+
 
             using (StreamWriter writer = new StreamWriter("Stazysta.txt"))
             {
@@ -141,7 +154,7 @@ namespace FormularzStudenta
                         writer.WriteLine(cb.Content.ToString());
                     }
                 }
-                
+
                 MessageBox.Show(RadioButton.NameProperty.ToString());
             }
         }
@@ -156,5 +169,7 @@ namespace FormularzStudenta
             Informacja dialogInfo = new Informacja();
             dialogInfo.ShowDialog();
         }
+
+
     }
 }
